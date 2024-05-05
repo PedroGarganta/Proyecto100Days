@@ -8,10 +8,15 @@
 
 
 def juntarArrays (num1, m, num2,n):
+    #i apunta al ultimo elemento utilizable del array num1
     i=m-1;
+    #j apunta al ultimo elemento del array num2
     j=n-1;
+    #k apunta al ultimo elemento del array num1
     k=m+n-1;
+    #mientras queden elementos por usar en el segundo array se sigue ejecutando
     while(j>=0):
+        #verificamos que todavia queden elementos por usar en el array 1 y si son mayores que los del array 2
         if(i>=0) and num1[i]>num2[j]:
             num1[k]= num1[i];
             i-=1;
@@ -20,12 +25,13 @@ def juntarArrays (num1, m, num2,n):
             j-=1;
         print(num1)
         k-=1;
+
         
 
     
 
 array1=[1,2,3,0,0,0];
-array2=[2,3,4];
+array2=[0,2,2];
 juntarArrays(array1,3,array2,3)
 
         
