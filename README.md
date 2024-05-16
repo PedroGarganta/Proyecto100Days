@@ -4,3 +4,4 @@ Dia2: Primer ejercicio eliminar un valor del array todas las veces que aparece y
 Dia3: Determinar si un numero es palindrome.
 Dia4: Primer ejercicio eliminar los elementos duplicados de una lista. Segundo ejercio eliminar los elemento que se repiten mas de 2 veces en una lista.
 Dia5: Encontrar el elemento que mas se repite en el array, primer solucion usa un sort, la segunda es completamente mia y solo funciona para arrays pequeños. La solucion optima es el algoritmo de Boyer-Moore
+Dia6:

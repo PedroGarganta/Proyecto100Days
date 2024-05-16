@@ -63,4 +63,4 @@ def majorityElement(self, nums):
         if count > len(nums) / 2:
             return candidate
         else:
-            return None                        
+            return None                       
