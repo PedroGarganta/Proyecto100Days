@@ -14,4 +14,6 @@ def rotate(self, nums, k):
                          nums[tot-j]= nums[tot-j-1]
                 nums[0]= ultimo;
 
+# !
+
 
